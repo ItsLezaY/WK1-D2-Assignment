@@ -58,23 +58,6 @@ body {
 }
 
 
-button {
-    color: var(--white, #FFF);
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    width: 123px;
-    height: 48px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: var(--denim, #022959);
-    margin-top: 160px;
-    margin-left: 410px;
-}
-
-
 .container {
     display: flex;
     position: relative;
@@ -321,6 +304,23 @@ font-style: normal;
 font-weight: 500;
 line-height: 25px; /* 156.25% */
 } 
+
+button {
+    color: var(--white, #FFF);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 123px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: var(--denim, #022959);
+    margin-top: 160px;
+    margin-left: 410px;
+}
 
 button:hover {
     background-color: #020733}
